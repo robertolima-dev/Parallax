@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Parallax</title>
+		<meta charset="utf-8">
+
+		<!-- inicio parallax -->
+		<style type="text/css">
+
+
+		/* IMPORTANTE - DEFINICAO DE FONTE EXTERNA*/
+
+			@font-face {
+				font-family: "Lato";
+				src: url(Lato-Regular.woff); /* em caso de fonte em pasta (fonte) utlizar o caminho ../fonte/nome */
+			}
+
+		/* IMPORTANTE - DEFINICAO DE FONTE EXTERNA*/
+
+		/* CONFIGURACAO PAGINA */
+			
+			body, html {
+				margin: 0;
+				font: 16px "Lato", sans-serif;
+				color: #777;
+				height: 100%;  /* height 100% para parallax (IMPORTANTE) */
+			}
+
+			.conteudo {
+				color: #777;
+				background-color: white;
+				text-align: justify;
+				padding: 50px 80px;
+			}
+
+			h3 {
+				text-transform: uppercase;
+				color: #111;
+				text-align: center;
+			}
+
+		/* CONFIGURACAO PAGINA */
+
+		/* EFEITO PARALLAX */
+
+			.caixa1, .caixa2, .caixa3, .caixa4 {
+				position: relative;
+				height: 100%;
+				opacity: 0.7;
+				background-repeat: no-repeat;
+				background-size: cover;
+				background-position: center;
+				background-attachment: fixed;
+			}
+
+			.caixa1 {
+				background-image: url(imagens/imagem1.jpg);
+			}
+
+			.caixa2 {
+				background-image: url(imagens/imagem2.jpg);
+			}
+
+			.caixa3 {
+				background-image: url(imagens/imagem3.jpg);
+			}
+
+			.caixa4 {
+				background-image: url(imagens/imagem4.jpg);
+			}
+
+			.conteudo-titulo {
+				position: absolute;
+				left: 0;
+				top: 45%;
+				width: 100%;
+				text-align: center;
+			}
+
+			.conteudo-titulo span.titulo {
+				text-transform: uppercase;
+				color: #fff;
+				background-color: #111;
+				padding: 18px;
+				font-size: 25px;
+				letter-spacing: 5px;
+			}
+
+
+		/* EFEITO PARALLAX */
+
+
+		</style>
+		<!-- final parallax -->
+
+		<link rel="stylesheet" type="text/css" href="css/estilo.css">
+	</head>
+
+	<body>
+		<div class="caixa1">
+			<div class="conteudo-titulo">
+				<span class="titulo">
+					Passeio de balões
+				</span>
+			</div>
+		</div>
+
+		<div class="conteudo">
+			<h3>Parallax</h3>
+			<p>
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ut molestie diam. Maecenas lacinia ullamcorper magna, sed porta dui convallis gravida. Aliquam in egestas tortor. Praesent malesuada semper aliquet. Praesent arcu ex, efficitur id egestas non, ultrices vel risus. Maecenas auctor ornare eros id dictum. Aliquam vestibulum quis tellus vitae ullamcorper. Donec congue ex diam, a tincidunt arcu blandit sit amet.
+			</p>
+			<p>
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ut molestie diam. Maecenas lacinia ullamcorper magna, sed porta dui convallis gravida. Aliquam in egestas tortor. Praesent malesuada semper aliquet. Praesent arcu ex, efficitur id egestas non, ultrices vel risus. Maecenas auctor ornare eros id dictum. Aliquam vestibulum quis tellus vitae ullamcorper. Donec congue ex diam, a tincidunt arcu blandit sit amet.
+			</p>
+		</div>
+
+		<div class="caixa2">
+			<div class="conteudo-titulo">
+				<span class="titulo">
+					Pegando a estrada
+				</span>
+			</div>
+		</div>
+
+		<div class="conteudo">
+			<h3>Parallax</h3>
+			<p>
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ut molestie diam. Maecenas lacinia ullamcorper magna, sed porta dui convallis gravida. Aliquam in egestas tortor. Praesent malesuada semper aliquet. Praesent arcu ex, efficitur id egestas non, ultrices vel risus. Maecenas auctor ornare eros id dictum. Aliquam vestibulum quis tellus vitae ullamcorper. Donec congue ex diam, a tincidunt arcu blandit sit amet.
+			</p>
+			<p>
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ut molestie diam. Maecenas lacinia ullamcorper magna, sed porta dui convallis gravida. Aliquam in egestas tortor. Praesent malesuada semper aliquet. Praesent arcu ex, efficitur id egestas non, ultrices vel risus. Maecenas auctor ornare eros id dictum. Aliquam vestibulum quis tellus vitae ullamcorper. Donec congue ex diam, a tincidunt arcu blandit sit amet.
+			</p>
+		</div>
+
+		<div class="caixa3">
+			<div class="conteudo-titulo">
+				<span class="titulo">
+					Por do sol
+				</span>
+			</div>
+		</div>
+
+		<div class="conteudo">
+			<h3>Parallax</h3>
+			<p>
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ut molestie diam. Maecenas lacinia ullamcorper magna, sed porta dui convallis gravida. Aliquam in egestas tortor. Praesent malesuada semper aliquet. Praesent arcu ex, efficitur id egestas non, ultrices vel risus. Maecenas auctor ornare eros id dictum. Aliquam vestibulum quis tellus vitae ullamcorper. Donec congue ex diam, a tincidunt arcu blandit sit amet.
+			</p>
+			<p>
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ut molestie diam. Maecenas lacinia ullamcorper magna, sed porta dui convallis gravida. Aliquam in egestas tortor. Praesent malesuada semper aliquet. Praesent arcu ex, efficitur id egestas non, ultrices vel risus. Maecenas auctor ornare eros id dictum. Aliquam vestibulum quis tellus vitae ullamcorper. Donec congue ex diam, a tincidunt arcu blandit sit amet.
+			</p>
+		</div>
+
+		<div class="caixa4">
+			<div class="conteudo-titulo">
+				<span class="titulo">
+					montanhas
+				</span>
+			</div>
+		</div>
+
+	</body>
+</html>
